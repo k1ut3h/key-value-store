@@ -1,14 +1,5 @@
-#[derive(Debug)]
-struct HexCode{
-    something: String,
-}
-
-fn something(something:String)->HexCode{
-    HexCode{
-        something
-    }
-}
+use std::collections::HashMap;
 
 fn main() {
-    println!("{}",something("#120f0f".to_string()).something);
+    let mut map = HashMap::new();
 }
