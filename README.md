@@ -2,7 +2,12 @@
 ---
 
 ## TODO:
-- implement a server that stores data in memory
-- implement a client that communicates with the server
-- program the data structure(hashmap) used in the server
-- program the commands to store and retrieve data
+- client that communicates with the server
+- enable data transfer between client and server
+- data structure(hashmap) used in the server
+- commands to store and retrieve data
+- data persistence(in-memory)[can use storage too]
+
+## DONE:
+- server that accepts connection
+
